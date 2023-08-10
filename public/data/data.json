@@ -1,0 +1,125 @@
+{
+    "introduction": {
+        "description": "<div class='flex-1 flex flex-col gap-5 md:gap-6'><p class='lg:text-xl text-justify'>Hello ! 我是 Chris，中國科大資管系畢業，性格溫和，從事網站前端開發目前接近兩年多的時間，但學海無垠，時不時提醒自己仍需常保謙虛向學、樂觀的心態，目前工作中主要使用 React 與其生態系工具來開發。</p><p class='lg:text-xl text-justify'>在工作中，持續培養獨立開發、解決問題的能力，努力成為獨當一面的開發者，享受解決問題後所帶來的成就與暢快感；發現自己也好比一塊海綿樂於汲取新知，藉由工作的歷練不斷精進自己。</p><p class='lg:text-xl text-justify'>工作經驗中除了接觸到前端技術，也曾涉略並參後端實作開發，讓我更清楚整個網站開發的過程與脈絡，也正因曾接觸過後端領域，更了解前後端溝通與配合的重要性。</p></div>",
+        "img": "/images/selfie_2023.jpg"
+    },
+    "skills": [
+        {
+            "type": "網頁前端開發",
+            "id": "front-end",
+            "items": [
+                "HTML5",
+                "CSS3",
+                "JavaScript",
+                "Sass",
+                "RWD",
+                "Bootstrap",
+                "React",
+                "Redux",
+                "NextJS",
+                "TailwindCSS",
+                "Zustand"
+            ]
+        },
+        {
+            "type": "網頁後端開發",
+            "id": "back-end",
+            "items": [
+                "C#",
+                "ASP.NET Core MVC",
+                "Redis",
+                "MS SQL"
+            ]
+        },
+        {
+            "type": "其他",
+            "id": "other",
+            "items": [
+                "Git",
+                "Github",
+                "Webpack",
+                "Jira",
+                "Postman",
+                "TOEIC 650"
+            ]
+        }
+    ],
+    "experiences": [
+        {
+            "company": "威許移動 WishMobile Inc co.",
+            "jobTitle": "前端工程師",
+            "jobTenure": "Mar. 2022 ~ Now",
+            "jobDescription": "<p>- 參與公司 MMRM Web 產品開發，將專案依功能模組化拆分不同 package 專案並進行開發，供新專案依不同需求引用。&nbsp;</p>\n    <p>- 與團隊使用 Eslint、prettier、husky 來統一 coding style。&nbsp;</p>\n    <p>- 公司既有 CRM 專案與其他專案維護，新功能開發與 Bugfix。&nbsp;</p>\n    <p>- 協助公司形象官方網站翻新改版，並上線。</p>\n    <p>- 參與書香會 - 社區防暴資源網站開發。(In Progress)&nbsp;</p><p>- 參與檸檬商城 - 中小型電商網站開發。&nbsp;</p><p>- 參與MMRM產品 - 後台 Dashboard 開發。&nbsp;</p>"
+        },
+        {
+            "company": "創鈞堂資訊有限公司",
+            "jobTitle": "前端工程師",
+            "jobTenure": "Jul. 2020 ~ Sep. 2021",
+            "jobDescription": "<p>- 維護與更新既有專案並依照客戶需求調整與新增網站功能。&nbsp;</p>\n    <p>- 依照無障礙掃描結果進行網站無障礙改善與優化。&nbsp;</p>\n    <p>- 參與專案開發，主要包含頁面切版、元件製作、串接後端 API、確保 RWD 畫面正常顯示。&nbsp;</p>\n    <p>- 後期參與部分後端開發，撰寫部分基礎 API 與後端 CRUD 功能。</p>\n    <p>- 協助撰寫專案投標文件、結案交付文件、簡報文件製作。&nbsp;</p>\n    <p>- 參與專案之需求訪談會議、協助教育訓練相關事宜。&nbsp;</p>\n    <p class=\"my-4\">【參與重要專案】 【北市社會住宅管理系統】三平台成效：&nbsp;</p>\n    <p>- 提供社宅住戶多種 e 化線上服務，整合多元生活機能服務，提升住戶滿意度。&nbsp;</p>\n    <p>- 資訊即時、透明化，使用者與管理者可隨時追蹤進度，確保生活、服務品質。&nbsp;</p>\n    <p>- 有效降低物管團隊、市府團隊之管理成本，提升日常工作效率。</p>"
+        },
+        {
+            "company": "DHL Express 洋基通運股份有限公司",
+            "jobTitle": "電話顧客服務專員",
+            "jobTenure": "Jul. 2017 ~ Jul. 2019",
+            "jobDescription": "<p>- 提供顧客跨國寄件方案諮詢及報價服務&nbsp;</p>\n    <p>- 回覆客戶快遞取件需求及安排相關服務&nbsp;</p>\n    <p>- 電話開發潛在新客戶、銷售物流方案</p>"
+        },
+        {
+            "company": "菁英國際語言教育中心",
+            "jobTitle": "櫃檯行政工讀",
+            "jobTenure": "Oct. 2015 ~ Jun. 2016",
+            "jobDescription": "負責課堂與教室管理、櫃台接待、解決學生問題，行政工作等。"
+        },
+        {
+            "company": "台灣無印良品阪急門市",
+            "jobTitle": "長期服務人員",
+            "jobTenure": "Mar. 2012 ~ May. 2015",
+            "jobDescription": "負責賣場顧客服務、商品介紹及銷售、環境維護、櫃台收銀、商品陳列及人型更換。"
+        }
+    ],
+    "sideProjects": [
+        {
+            "title": "訂餐網站 - 享瘦餐盒",
+            "img": "/images/portfolio_food_order.png",
+            "description": "此專案為模擬訂餐系統，主要想透過工作中所學經驗以及透過實作來學習 React.js 及其 Ecosystem。",
+            "link": "https://ec2-52-68-119-218.ap-northeast-1.compute.amazonaws.com"
+        },
+        {
+            "title": "訂餐網站後台CMS - 享瘦餐盒",
+            "img": "/images/portfolio_food_order_cms.png",
+            "description": "此專案為模擬訂餐系統，主要想透過工作中所學經驗以及透過實作來學習 React.js 及其 Ecosystem。",
+            "link": "https://ec2-52-68-119-218.ap-northeast-1.compute.amazonaws.com/cms"
+        },
+        {
+            "title": "模擬服飾電商 - Haseiyo",
+            "img": "/images/portfolio_haseiyo.png",
+            "description": "此專案作品為模擬服飾電商，銷售主題為男性服飾，透過 Vue.js、Vuex實作。",
+            "link": "https://lionms200789.github.io/haseiyo-Vuex/#/"
+        },
+        {
+            "title": "旅館訂房系統 - White Space",
+            "img": "/images/portfolio_hotel.png",
+            "description": "此小專案為六角學院主辦的第二屆 The F2E 精神時光屋，我所參與的第六關卡實作。",
+            "link": "https://lionms200789.github.io/white-space-hotel/#/"
+        }
+    ],
+    "projects": [
+        {
+            "title": "UniDry - Line LIFF",
+            "img": "/images/portfolio_tst.png",
+            "description": "此專案為公司 MMRM Web 產品，使用 ReactJS 與其相關生態系工具來開發，主要開放用於 Line LIFF 上。",
+            "link": "https://tst-web.wisho2o.com/"
+        },
+        {
+            "title": "Dreamers Coffee - Line LIFF",
+            "img": "/images/portfolio_dreamers.png",
+            "description": "此專案為公司 MMRM Web 產品，使用 ReactJS 與其相關生態系工具來開發，主要開放用於 Line LIFF 上。",
+            "link": "https://miacucina-web.wisho2o.com/"
+        },
+        {
+            "title": "威許移動官方網站",
+            "img": "/images/portfolio_wishmobile.png",
+            "description": "協助公司形象官方網站改版更新",
+            "link": "https://www.wishmobile.com/"
+        }
+    ]
+}
