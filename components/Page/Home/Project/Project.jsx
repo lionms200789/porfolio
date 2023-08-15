@@ -1,5 +1,6 @@
 //swiper
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper";
 
 //swiper styles
 import "swiper/css";
@@ -10,8 +11,12 @@ const Projects = ({ data = [] }) => {
     return <div className="container mx-auto px-8">
         <Swiper
             slidesPerView={1.1}
-            spaceBetween={32}
+            spaceBetween={24}
             className="mySwiper my-8"
+            modules={[Autoplay]}
+            autoplay={{
+                delay: 4000
+            }}
             breakpoints={{
                 576: {
                     slidesPerView: 2

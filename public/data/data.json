@@ -1,6 +1,6 @@
 {
     "introduction": {
-        "description": "<div class='flex-1 flex flex-col gap-5 md:gap-6'><p class='lg:text-xl text-justify'>Hello ! 我是 Chris，中國科大資管系畢業，性格溫和，從事網站前端開發目前接近兩年多的時間，但學海無垠，時不時提醒自己仍需常保謙虛向學、樂觀的心態，目前工作中主要使用 React 與其生態系工具來開發。</p><p class='lg:text-xl text-justify'>在工作中，持續培養獨立開發、解決問題的能力，努力成為獨當一面的開發者，享受解決問題後所帶來的成就與暢快感；發現自己也好比一塊海綿樂於汲取新知，藉由工作的歷練不斷精進自己。</p><p class='lg:text-xl text-justify'>工作經驗中除了接觸到前端技術，也曾涉略並參後端實作開發，讓我更清楚整個網站開發的過程與脈絡，也正因曾接觸過後端領域，更了解前後端溝通與配合的重要性。</p></div>",
+        "description": "<div class='flex-1 flex flex-col gap-5 md:gap-6'><p class='lg:text-xl text-justify'>Hello ! 我是 Chris，中國科大資管系畢業，性格溫和，從事網站前端開發目前接近兩年多的時間，但學海無垠，時不時提醒自己仍需常保謙虛向學、樂觀的心態，目前工作中主要使用 React 與其生態系工具來開發。</p><br /><p class='lg:text-xl text-justify'>在工作中，持續培養獨立開發、解決問題的能力，努力成為獨當一面的開發者，享受解決問題後所帶來的成就與暢快感；發現自己也好比一塊海綿樂於汲取新知，藉由工作的歷練不斷精進自己。</p><br /><p class='lg:text-xl text-justify'>工作經驗中除了接觸到前端技術，也曾涉略並參後端實作開發，讓我更清楚整個網站開發的過程與脈絡，也正因曾接觸過後端領域，更了解前後端溝通與配合的重要性。</p></div>",
         "img": "/images/selfie_2023.jpg"
     },
     "skills": [
@@ -62,18 +62,6 @@
             "jobTitle": "電話顧客服務專員",
             "jobTenure": "Jul. 2017 ~ Jul. 2019",
             "jobDescription": "<p>- 提供顧客跨國寄件方案諮詢及報價服務&nbsp;</p>\n    <p>- 回覆客戶快遞取件需求及安排相關服務&nbsp;</p>\n    <p>- 電話開發潛在新客戶、銷售物流方案</p>"
-        },
-        {
-            "company": "菁英國際語言教育中心",
-            "jobTitle": "櫃檯行政工讀",
-            "jobTenure": "Oct. 2015 ~ Jun. 2016",
-            "jobDescription": "負責課堂與教室管理、櫃台接待、解決學生問題，行政工作等。"
-        },
-        {
-            "company": "台灣無印良品阪急門市",
-            "jobTitle": "長期服務人員",
-            "jobTenure": "Mar. 2012 ~ May. 2015",
-            "jobDescription": "負責賣場顧客服務、商品介紹及銷售、環境維護、櫃台收銀、商品陳列及人型更換。"
         }
     ],
     "sideProjects": [
@@ -103,6 +91,12 @@
         }
     ],
     "projects": [
+        {
+            "title": "StockFeel 檸檬電商商城",
+            "img": "/images/portfolio_lemon.png",
+            "description": "團隊開發檸檬電商商城，主要使用 NextJS 搭配 Zustand 開發。",
+            "link": "https://mmrm-ec.stockfeel.dev/"
+        },
         {
             "title": "UniDry - Line LIFF",
             "img": "/images/portfolio_tst.png",

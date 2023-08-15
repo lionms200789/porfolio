@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react';
 import useSWR from 'swr';
 import Heading from '@/components/Heading';
 import About from './About';
@@ -7,15 +8,12 @@ import Project from './Project';
 import { fetcher } from '@/utils/fetcher';
 
 const HomePage = () => {
+  const [data, setData] = useState(null);
+  const result = useSWR('/api/staticdata', fetcher);
 
-  const { data } = useSWR('/api/staticdata', fetcher);
-
-  let parse = {};
-  if (data) {
-    console.log('data --->', data)
-    parse = JSON.parse(data);
-    console.log(parse)
-  };
+  useEffect(() => {
+    if (result.data) setData(JSON.parse(result.data));
+  }, [result.data])
 
   return <>
     <div className='relative inset-x-0 h-[85vh] md:h-[80vh] w-full overflow-hidden'>
@@ -24,21 +22,21 @@ const HomePage = () => {
         <source src="/videos/clouds.mp4" type="video/mp4"></source>
       </video>
       <div className='text-white text-center w-full absolute z-[10] left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 '>
-        <div className='text-3xl md:text-5xl lg:leading-normal'>Hey, I'm Chris Tseng.</div>
-        <div className='text-3xl md:text-5xl lg:leading-normal'>a Web Developer.</div>
+        <div className='text-3xl md:text-5xl lg:leading-normal'>{`Hey, I'm Chris Tseng.`}</div>
+        <div className='text-3xl md:text-5xl lg:leading-normal mt-3'>a Web Developer.</div>
       </div>
       <div className="absolute inset-0 bg-[rgba(100,180,220,0.7)]"></div>
     </div>
     <Heading title="關於我" subTitle="ABOUT ME" />
-    <About data={parse.introduction} />
+    <About data={data?.introduction} />
     <Heading title="技能" subTitle="SKILLS" />
-    <Skills data={parse.skills} />
+    <Skills data={data?.skills} />
     <Heading title="工作經歷" subTitle="EXPERIENCES" />
-    <Experiences data={parse.experiences} />
+    <Experiences data={data?.experiences} />
     <Heading title="正式專案" subTitle="WORK PROJECT" />
-    <Project data={parse.projects} />
+    <Project data={data?.projects} />
     <Heading title="個人作品" subTitle="SIDE PROJECT" />
-    <Project data={parse.sideProjects} />
+    <Project data={data?.sideProjects} />
   </>
 }
 
