@@ -1,6 +1,6 @@
 module.exports = {
     mode: 'jit',
-    content: ['./pages/**/*.{js,jsx}', './components/**/*.{js,jsx}'],
+    content: ['./app/**/*.{js,ts,jsx,tsx,mdx}', './public/**/*.json'],
     theme: {
         container: {
             center: true,
@@ -13,9 +13,6 @@ module.exports = {
         extend: {
             fontFamily: {
                 sans: ["'Noto Sans TC', serif"]
-            },
-            colors: {
-                primary: '#487F78'
             },
             height: {
                 '85vh': '85vh',

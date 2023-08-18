@@ -1,23 +1,19 @@
-import { useEffect, useState } from 'react';
-import useSWR from 'swr';
+import path from 'path';
+import { promises as fs } from 'fs';
 import Heading from '@/components/Heading';
 import About from './About';
 import Skills from './Skills';
 import Experiences from './Experiences';
 import Project from './Project';
-import { fetcher } from '@/utils/fetcher';
 
-const HomePage = () => {
-  const [data, setData] = useState(null);
-  const result = useSWR('/api/staticdata', fetcher);
-
-  useEffect(() => {
-    if (result.data) setData(JSON.parse(result.data));
-  }, [result.data])
+const HomePage = async () => {
+  const jsonDirectory = path.join(process.cwd(), 'public');
+  const result = await fs.readFile(jsonDirectory + '/data/data.json', 'utf8');
+  const data = JSON.parse(result);
 
   return <>
     <div className='relative inset-x-0 h-[85vh] md:h-[80vh] w-full overflow-hidden'>
-      <video className='absolute inset-0 max-w-[1920px] lg:max-w-full' loop="loop" muted="muted" autoplay="autoplay" preload="auto">
+      <video className='absolute inset-0 max-w-[1920px] lg:max-w-full' loop="loop" muted autoPlay="autoplay" preload="auto">
         <source src="/videos/clouds.webm" type="video/webm"></source>
         <source src="/videos/clouds.mp4" type="video/mp4"></source>
       </video>
@@ -29,7 +25,7 @@ const HomePage = () => {
     </div>
     <Heading title="關於我" subTitle="ABOUT ME" />
     <About data={data?.introduction} />
-    <Heading title="技能" subTitle="SKILLS" />
+    <Heading title="技能與開發經驗" subTitle="SKILLS" />
     <Skills data={data?.skills} />
     <Heading title="工作經歷" subTitle="EXPERIENCES" />
     <Experiences data={data?.experiences} />
