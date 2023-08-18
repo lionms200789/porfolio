@@ -13,7 +13,7 @@ const icons = {
 };
 
 const Skills = ({ data = [] }) => {
-
+    console.log(data)
     useEffect(() => {
         if (data.length) {
             data.forEach(item => {
@@ -30,11 +30,17 @@ const Skills = ({ data = [] }) => {
                     <img src={icons[skill.icon].src} className="w-8 lg:w-10 mr-2 mix-blend-darken" />
                     <span>{skill.type}</span>
                 </h4>
-                <div className={`flex flex-wrap gap-1.5 ${skill.id}`}>
-                    {
+                <div className={`flex flex-col flex-wrap gap-1.5 ${skill.id}`}>
+                    {/* {
                         skill.items.map((item, _idx) => <span key={_idx} className="px-5 rounded-full bg-cyan-600 text-white md:text-lg leading-[32px] md:leading-[36px]">
-                            {item}
+                            {item.tag}
                         </span>)
+                    } */}
+                    {
+                        skill.items.map((item, idx) => <div key={idx} className='flex items-center'>
+                            <div>{item.tag}</div>
+                            <div>{item.description}</div>
+                        </div>)
                     }
                 </div>
             </div>) : null

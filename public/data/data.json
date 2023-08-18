@@ -9,30 +9,65 @@
       "id": "frontEnd",
       "icon": "frontEnd",
       "items": [
-        "HTML5",
-        "CSS3",
-        "JavaScript",
-        "Sass",
-        "RWD",
-        "Bootstrap",
-        "React",
-        "Redux",
-        "NextJS",
-        "TailwindCSS",
-        "Zustand"
+        {
+          "tag": "HTML5",
+          "description": ""
+        },
+        {
+          "tag": "CSS3",
+          "description": ""
+        },
+        {
+          "tag": "JavaScript",
+          "description": "對於變數、迴圈、函式、DOM、Data fetching等操作與 ES6+ 都有一定了解，並能應用在開發上。"
+        },
+        {
+          "tag": "ReactJS",
+          "description": "掌握 ReactJS 基礎(State、Props、Hooks、HOC、Render Props...etc)與其生態系工具(ReduxToolkit、Zustand、React Router、React Hook Form...etc)的應用，且已能應用在開發上。"
+        },
+        {
+          "tag": "NextJS",
+          "description": "掌握 NextJS 基礎並具參與正式專案開發經驗。"
+        }
       ]
     },
     {
       "type": "網頁後端開發",
       "id": "backEnd",
       "icon": "backEnd",
-      "items": ["C#", "ASP.NET Core MVC", "Redis", "MS SQL"]
+      "items": [
+        {
+          "tag": "C#",
+          "description": ""
+        },
+        {
+          "tag": "ASP.NET Core MVC",
+          "description": ""
+        },
+        {
+          "tag": "MS SQL",
+          "description": ""
+        }
+      ]
     },
     {
       "type": "其他",
       "id": "others",
       "icon": "others",
-      "items": ["Git", "Github", "Webpack", "Jira", "Postman", "TOEIC 650"]
+      "items": [
+        {
+          "tag": "Git",
+          "description": "掌握 Git 基礎使用(clone、add、commit、push、pull、fetch、merge、branch、check out)，與解決衝突經驗。"
+        },
+        {
+          "tag": "Webpack",
+          "description": "具自行配置 webpack 設定經驗"
+        },
+        {
+          "tag": "TOEIC 650",
+          "description": "多益綠色證書，具閱讀英文文件能力。"
+        }
+      ]
     }
   ],
   "experiences": [
