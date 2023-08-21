@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+    .triangle-l {
+        @apply after:content-[''] after:absolute after:left-[-0.5rem] after:top-1/2 after:-translate-y-1/2 after:w-0 after:h-0 after:border-t-[0.5rem] after:border-t-transparent after:border-r-[0.5rem] after:border-r-white after:border-b-[0.5rem] after:border-b-transparent
+    }
+
+    .triangle-r {
+        @apply after:content-[''] after:absolute after:right-[-0.5rem] after:top-1/2 after:-translate-y-1/2 after:w-0 after:h-0 after:border-t-[0.5rem] after:border-t-transparent after:border-l-[0.5rem] after:border-l-white after:border-b-[0.5rem] after:border-b-transparent
+    }
+}
+
 html,
 body,
 #__next {
