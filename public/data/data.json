@@ -7,65 +7,69 @@
     {
       "type": "網頁前端開發",
       "id": "frontEnd",
-      "icon": "frontEnd",
+      "img": "/images/icons/react.gif",
       "items": [
         {
           "tag": "HTML5",
-          "description": ""
+          "description": "熟悉 HTML5 標籤語法。",
+          "img": "/images/icons/html.svg"
         },
         {
           "tag": "CSS3",
-          "description": ""
+          "description": "熟悉常用 CSS3 樣式語法，並擁有主流 CSS framework 開發經驗 (TailwindCSS、Bootstrap 5)。",
+          "img": "/images/icons/css3.svg"
+        },
+        {
+          "tag": "RWD",
+          "description": "熟悉 RWD 網頁響應式切版。",
+          "img": "/images/icons/rwd.png"
         },
         {
           "tag": "JavaScript",
-          "description": "對於變數、迴圈、函式、DOM、Data fetching等操作與 ES6+ 都有一定了解，並能應用在開發上。"
+          "description": "對於變數、迴圈、函式、DOM、Data fetching等操作與 ES6+ 都有一定了解，並能應用在開發上。",
+          "img": "/images/icons/javascript.svg"
         },
         {
           "tag": "ReactJS",
-          "description": "掌握 ReactJS 基礎(State、Props、Hooks、HOC、Render Props...etc)與其生態系工具(ReduxToolkit、Zustand、React Router、React Hook Form...etc)的應用，且已能應用在開發上。"
+          "description": "掌握 ReactJS 基礎 (State、Props、Hooks、HOC、Render Props...etc) 應用，並有實戰開發經驗。",
+          "img": "/images/icons/react.svg"
         },
         {
           "tag": "NextJS",
-          "description": "掌握 NextJS 基礎並具參與正式專案開發經驗。"
-        }
-      ]
-    },
-    {
-      "type": "網頁後端開發",
-      "id": "backEnd",
-      "icon": "backEnd",
-      "items": [
-        {
-          "tag": "C#",
-          "description": ""
+          "description": "掌握 NextJS 基礎且擁有正式專案開發經驗。",
+          "img": "/images/icons/nextjs.svg"
         },
         {
-          "tag": "ASP.NET Core MVC",
-          "description": ""
-        },
-        {
-          "tag": "MS SQL",
-          "description": ""
+          "tag": "Tools",
+          "description": "React 生態系相關工具使用經驗 (ReduxToolkit、Zustand、SWR、React Router、React Hook Form...etc) 與其他第三方套件使用經驗 (Swiper、ChartJS、Html5QRCode...etc)。",
+          "img": "/images/icons/tools.png"
         }
       ]
     },
     {
       "type": "其他",
       "id": "others",
-      "icon": "others",
+      "img": "/images/icons/worldwide.gif",
       "items": [
         {
           "tag": "Git",
-          "description": "掌握 Git 基礎使用(clone、add、commit、push、pull、fetch、merge、branch、check out)，與解決衝突經驗。"
+          "description": "掌握 Git 基礎使用 (clone、add、commit、push、pull、fetch、merge、branch、check out)，與解決衝突經驗。",
+          "img": "/images/icons/git.svg"
         },
         {
           "tag": "Webpack",
-          "description": "具自行配置 webpack 設定經驗"
+          "description": "具自行配置 webpack 設定經驗。",
+          "img": "/images/icons/webpack.svg"
         },
         {
-          "tag": "TOEIC 650",
-          "description": "多益綠色證書，具閱讀英文文件能力。"
+          "tag": "TOEIC",
+          "description": "多益650，綠色證書，具閱讀英文文件能力。",
+          "img": "/images/icons/abc.png"
+        },
+        {
+          "tag": "第三方API/SDK串接",
+          "description": "第三方 API/SDK 串接與使用經驗，Line Login、Liff SDK ...etc。",
+          "img": "/images/icons/third-party.png"
         }
       ]
     }
